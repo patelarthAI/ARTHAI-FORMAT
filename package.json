@@ -1,1 +1,36 @@
-Permission denied
+{
+  "name": "precision-resume-formatter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.41.0",
+    "@types/lodash": "^4.17.23",
+    "@types/pdfmake": "^0.3.1",
+    "docx": "^9.5.3",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^12.34.2",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.0",
+    "lodash": "^4.17.23",
+    "lucide-react": "^0.574.0",
+    "mammoth": "1.6.0",
+    "pdfmake": "^0.3.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.0",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.2.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
